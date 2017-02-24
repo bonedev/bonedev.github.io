@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+body {background:url('../images/common/bg_body.jpg') no-repeat 50% 0 #fff;}
+
+#path {height:19px;float:right;font-size:11px;}
+#contents {overflow:hidden;clear:both;background:url('../images/serviceForm/bg_container_02.png') 0 bottom repeat-y;margin-bottom:24px;padding-top:20px;}
+	
+
+#main_contents {position:relative;float:right;width:650px;margin: 0 auto;padding: 0 20px 380px 20px;}
+#main_contents h1 {float:left;margin-bottom:10px;}
+#main_contents h1 span {height:15px;background:url('../images/serviceForm/line_h4.gif')  0px 5px no-repeat;margin-left:6px;padding:4px 0 3px 9px;}
+#main_contents h1 span img {padding-top:2px;}
+#main_contents p.line {border-bottom:1px solid #d2d2d2;margin-bottom:20px;padding-bottom:20px;}
+#main_contents dl.note{margin-bottom:20px;font-size:11px;}
+#main_contents dl.note strong {font-weight:normal;}
+#main_contents dl.note dt {position:absolute;text-indent:-5000px;}
+#main_contents dl.note dd {background:url('../images/serviceForm/bullet_black_01.gif') left center no-repeat;padding-left:10px;}
+	
+	#serviceForm fieldset.personalInfo_container {position:absolute;bottom:80px; border-top: 2px solid #666; border-bottom:2px solid #666;margin:20px 0;padding:20px 0 10px 0;}
+	#serviceForm fieldset.personalInfo_container ul {margin-top:20px;}
+	#serviceForm fieldset.personalInfo_container ul li {margin-bottom:20px;}
+	#serviceForm fieldset.personalInfo_container ul li ul {margin-bottom:10px;}
+	#serviceForm fieldset.personalInfo_container ul li ul li {margin-bottom:10px;}
+	#serviceForm fieldset.personalInfo_container ul li .mgNon {margin:0;}
+	#serviceForm fieldset.personalInfo_container ul li ul li span.listTitleSt {color:#71b529;font-weight:bold;}
+	#serviceForm fieldset.personalInfo_container ul li ul li ul li a.listUrlSt {color:#71b529;text-decoration:underline;}
+	#serviceForm fieldset.personalInfo_container ul li ul li ul li a.listMailSt {color:#71b529;text-decoration:underline;}
+	#serviceForm fieldset.personalInfo_container p.agreement_Yn {padding-left:7px;}
+	#serviceForm fieldset.personalInfo_container p span {padding-left:20px;}
+		#personalInfo {overflow-x:hidden;overflow-y:auto;visibility:visible;height:133px;width:603px;border:1px solid #CACACA;margin: 0 0 7px 10px;padding:20px 20px;color:#888;font-size:12px;line-height:1.4em;}
+
+	#serviceForm h2 {margin-bottom:20px;}
+	#serviceForm input {vertical-align:-2px;}
+	#serviceForm div.bbs_write fieldset {border-bottom:1px solid #E4E4E4;margin-bottom:30px;}
+	#serviceForm div.bbs_write dl {margin-left:15px;}
+	#serviceForm div.bbs_write dt {padding-bottom:5px;}
+	#serviceForm div.bbs_write dd {margin-bottom:20px;}
+	#serviceForm div.bbs_write dd img {vertical-align:middle;}
+	#serviceForm div.bbs_write input.str,textarea.str {height:16px;border:1px solid #cacaca;padding:2px 0 2px 2px;vertical-align:middle;}
+	
+	#serviceForm div.bbs_write textarea {overflow:auto;resize:none;width:605px;height:80px;padding:10px;}
+	#serviceForm div.bbs_write span.at {color:#76b729;font-family:Arial;font-size:18px;vertical-align:middle;}
+	#serviceForm div.bbs_write dd span.detail_address {display:block;padding-top:5px;}
+	#serviceForm div.bbs_write dd.mobile_notice {position:absolute;top:463px;left:20px;color:#666;font-size:11px;}
+	#serviceForm div.bbs_write dd.password_notice {position:absolute;top:630px;left:20px;color:#666;font-size:11px;}
+	#serviceForm div.bbs_write p.btn {position:absolute;bottom:55px;right:15px;}
+	#serviceForm div.bbs_write p.btn span {padding-left:10px;} 
+	#serviceForm div.bbs_write p.btn img {vertical-align:0;}
+	#serviceForm div.bbs_write .mgb40{margin-bottom:40px;}
+	
+	
+#aside {float:left;width:200px;}
+#aside h2 {margin:0 0 30px 20px;}
+#aside ul {width:150px;border-top:1px solid #969696;margin-left:20px;}
+#aside ul li {border-bottom:1px solid #969696;}
+#aside ul li a {display:block;height:29px;text-indent:-5000px;}
+#aside ul li.customer_01 a {background:url('../images/serviceForm/customer_01.gif') 0 8px no-repeat;}
+#aside ul li.customer_02 a {background:url('../images/serviceForm/customer_02.gif') 0 8px no-repeat;}
+#aside ul li.customer_03 a {background:url('../images/serviceForm/customer_03.gif') 0 8px no-repeat;}
+#aside ul li.customer_04 a {background:url('../images/serviceForm/customer_04.gif') 0 8px no-repeat;}
+#aside ul li.customer_05 a {background:url('../images/serviceForm/customer_05.gif') 0 8px no-repeat;}
+#aside ul li.customer_06 a {background:url('../images/serviceForm/customer_06.gif') 0 8px no-repeat;}
+#aside ul li.customer_07 a {background:url('../images/serviceForm/customer_07.gif') 0 8px no-repeat;}
+
+#aside ul li.customer_01 a.on {background:url('../images/serviceForm/customer_01_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_02 a.on {background:url('../images/serviceForm/customer_02_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_03 a.on {background:url('../images/serviceForm/customer_03_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_04 a.on {background:url('../images/serviceForm/customer_04_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_05 a.on {background:url('../images/serviceForm/customer_05_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_06 a.on {background:url('../images/serviceForm/customer_06_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_07 a.on {background:url('../images/serviceForm/customer_07_on.gif') 0 8px no-repeat;}
+
+#aside ul li.customer_01 a:hover {background:url('../images/serviceForm/customer_01_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_02 a:hover {background:url('../images/serviceForm/customer_02_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_03 a:hover {background:url('../images/serviceForm/customer_03_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_04 a:hover {background:url('../images/serviceForm/customer_04_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_05 a:hover {background:url('../images/serviceForm/customer_05_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_06 a:hover {background:url('../images/serviceForm/customer_06_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_07 a:hover {background:url('../images/serviceForm/customer_07_on.gif') 0 8px no-repeat;}
+#aside ul li ul {margin:0;padding: 23px 0;}
+#aside ul li.customer_06 ul {display:block;}
+#aside ul li ul li {border:none;margin-left:16px;}
+#aside ul li ul.lnb_depth02 li a{height:10px;background-image:none;text-indent:0;padding:4px 0;}
+#aside ul li ul.lnb_depth02 li a:hover {background-image:none;color:#76b729;font-weight:bold;letter-spacing:-0.1em;text-decoration:none;}
+#aside ul li ul.lnb_depth02 li a.on {background-image:none;color:#76b729;font-weight:bold;letter-spacing:-0.1em;text-decoration:none;}

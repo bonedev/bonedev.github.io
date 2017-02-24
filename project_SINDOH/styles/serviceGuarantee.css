@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+body {background:url('../images/common/bg_body.jpg') no-repeat 50% 0 #fff;}
+
+#path {float:right;height:19px;font-size:11px;}
+#contents {overflow:hidden;clear:both;background:url('../images/common/bg_container_02.png') 0 bottom repeat-y;margin-bottom:24px;padding-top:20px;}
+
+#main_contents {position:relative;float:right;width:650px;margin: 0 auto;padding: 0 20px 20px 20px;}
+#main_contents h1 {float:left;margin-bottom:20px;}
+#main_contents h1 span {float:right;background:url('../images/common/line_h4.gif') no-repeat 0 2px;margin-left:10px;padding:3px 0 0 10px;}
+
+#main_contents h2 {clear:both;margin-left:-19px;cursor:pointer;}
+#main_contents div.guarantee_period {padding-top:30px;}
+#main_contents div.guarantee_period ul.desc {margin-bottom:10px;}
+#main_contents div.guarantee_period ul.desc li{background:url('../images/serviceGuarantee/bullet_black_02.gif') 0 5px no-repeat;padding:0 0 5px 12px;}
+#main_contents div table {width:650px;border-spacing:0;border-top:1px solid #D1CFCF;border-left:1px solid #D1CFCF;margin-bottom:30px;}
+#main_contents div table thead tr th{border-bottom:1px solid #D1CFCF;border-right:1px solid #D1CFCF;background-color:#ECEAEA;padding:6px 0;}
+#main_contents div.guarantee_period table thead tr th.type {width:195px;}
+#main_contents div.guarantee_period table thead tr th.model_name {width:260px;}
+#main_contents div.guarantee_period table thead tr th.guarantee_period {width:195px;}
+#main_contents div table tbody tr th {font-weight:normal;text-align:left;}
+#main_contents div table tbody tr th span{display:block;}
+#main_contents div table tbody tr th, td {border-right:1px solid #D1CFCF;border-bottom:1px solid #D1CFCF;padding:5px 0 3px 10px;}
+#main_contents table tbody #digitalMultiple {text-align:center;}
+#main_contents table tbody #digitalColor{text-align:center;}
+#main_contents table tbody #copy {text-align:center;}
+#main_contents table tbody #a4 {text-align:center;}
+#main_contents table tbody #fax {text-align:center;}
+#main_contents table tbody #printer {text-align:center;}`
+
+
+#main_contents div table tbody tr td span {display:block;}
+#main_contents div.guarantee_period h3 {margin-bottom:20px;}
+#main_contents div.guarantee_period ul {}
+#main_contents div.guarantee_period ul li {}
+
+
+
+#main_contents h2.service_support {display:block;position:absolute;top:38px;left:192px;}
+#main_contents div.service_support {display:none;padding-top:30px;}
+#main_contents div.service_support p.first {margin-bottom:40px;}
+#main_contents div.service_support h3.first {margin-bottom:20px;}
+#main_contents div.service_support table.service_guide{}
+#main_contents div.service_support table.service_guide thead th {padding:6px 0;}
+#main_contents table.service_guide thead #productFam {width:215px;}
+#main_contents table.service_guide thead #relevantModel {width:240px;}
+#main_contents table.service_guide thead #serviceRespond {width:95px;}
+#main_contents table.service_guide thead #processingMode {width:100px;}
+#main_contents div.service_support table.service_guide tbody tr th {text-align:left;}
+#main_contents div.service_support ul.desc {margin-bottom:20px;}
+#main_contents div.service_support ul.desc li {background:url('../images/serviceGuarantee/bullet_black_02.gif') 0 5px no-repeat;padding:0 0 5px 12px;}
+#main_contents div.service_support h3 {margin-bottom:10px;}
+#main_contents div.service_support p {margin-bottom:20px;}
+#main_contents div.service_support p span {display:block;}
+#main_contents div.service_support div.repairGuide_box {border:1px solid #D1CFCF;margin-bottom:30px;padding:10px 0 10px 20px;}
+#main_contents div.service_support div.repairGuide_box dt {font-weight:bold;margin-bottom:5px;}
+#main_contents div.service_support div.repairGuide_box dd {}
+#main_contents div.service_support div.repairGuide_box ul {margin:0;}
+#main_contents div.service_support div.repairGuide_box ul li{}
+#main_contents div.service_support h4 {margin-bottom:10px;}
+#main_contents div.service_support p.serviceFlow_img {margin-bottom:60px;}
+#main_contents div.service_support table.location {margin-bottom:50px;}
+#main_contents div.service_support table thead tr th.division {width:150px;}
+#main_contents div.service_support table thead tr th.location {width:500px;}
+#main_contents div.service_support ul li span {display:block;}
+
+
+
+#main_contents h2.service_guarantee {position:absolute;top:38px;left:365px;}
+#main_contents div.service_charge {display:none;padding-top:30px;}
+#main_contents div.service_charge h3 {margin-bottom:20px;}
+#main_contents div.service_charge dt {margin-bottom:20px;font-size:11px;color:#102747;font-weight:bold;}
+#main_contents div.service_charge dd {margin-bottom:20px;font-size:11px;color:#888;line-height:1.1em;}
+#main_contents div.service_charge ul.reference_list {margin-bottom:20px;}
+#main_contents div.service_charge ul.reference_list li {font-size:11px;color:#102747;}
+#main_contents div.service_charge ul.reference_list li img {padding-right:5px;vertical-align:middle;}
+#main_contents div.service_charge table.guarantee{}
+#main_contents div.service_charge table.guarantee thead tr th.division{width:390px;}
+#main_contents div.service_charge table.guarantee thead #guaranteeCriterion{width:260px;}
+#main_contents div.service_charge table.guarantee tbody tr th{text-align:left;}
+#main_contents div.service_charge table.engineering_fee thead tr th.division {width:130px;}
+#main_contents div.service_charge table.engineering_fee thead #grade {width:130px;}
+#main_contents div.service_charge table.engineering_fee thead #representativeModel  {width:260px;}
+#main_contents div.service_charge table.engineering_fee thead #engineeringFee {width:130px}
+#main_contents div.service_charge table.engineering_fee tbody tr th{text-align:left;}
+#main_contents div.service_charge table.installation_costs thead tr th.division {width:130px;}
+#main_contents div.service_charge table.installation_costs thead tr th.engineering_fee {width:65px;}
+#main_contents div.service_charge table.installation_costs thead #option {width:65px;}
+#main_contents div.service_charge table.installation_costs thead tr th.product_fam {width:;}
+#main_contents div.service_charge table.installation_costs thead tr th.grade {width:130px;}
+#main_contents div.service_charge table.installation_costs thead tr th.representative_model {width:260px;}
+#main_contents div.service_charge table.installation_costs tbody tr td ul{margin:0;}
+
+#main_contents h2.special_service {position:absolute;top:38px;left:538px;}
+#main_contents div.special_service {display:none;padding-top:30px;}
+#main_contents div.special_service h3 {margin-bottom:20px;}
+#main_contents div.special_service p {margin-bottom:30px;} 
+#main_contents div.special_service p span {display:block;padding-top:10px;}
+
+
+
+#aside {float:left;width:200px;}
+#aside h2 {margin:0 0 30px 20px;}
+#aside ul {width:150px;border-top:1px solid #969696;margin-left:20px;}
+#aside ul li {border-bottom:1px solid #969696;}
+#aside ul li a {display:block;height:29px;text-indent:-5000px;}
+#aside ul li.customer_01 a {background:url('../images/serviceForm/customer_01.gif') 0 8px no-repeat;}
+#aside ul li.customer_02 a {background:url('../images/serviceForm/customer_02.gif') 0 8px no-repeat;}
+#aside ul li.customer_03 a {background:url('../images/serviceForm/customer_03.gif') 0 8px no-repeat;}
+#aside ul li.customer_04 a {background:url('../images/serviceForm/customer_04.gif') 0 8px no-repeat;}
+#aside ul li.customer_05 a {background:url('../images/serviceForm/customer_05.gif') 0 8px no-repeat;}
+#aside ul li.customer_06 a {background:url('../images/serviceForm/customer_06.gif') 0 8px no-repeat;}
+#aside ul li.customer_07 a {background:url('../images/serviceForm/customer_07.gif') 0 8px no-repeat;}
+
+#aside ul li.customer_01 a.on {background:url('../images/serviceForm/customer_01_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_02 a.on {background:url('../images/serviceForm/customer_02_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_03 a.on {background:url('../images/serviceForm/customer_03_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_04 a.on {background:url('../images/serviceForm/customer_04_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_05 a.on {background:url('../images/serviceForm/customer_05_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_06 a.on {background:url('../images/serviceForm/customer_06_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_07 a.on {background:url('../images/serviceForm/customer_07_on.gif') 0 8px no-repeat;}
+
+#aside ul li.customer_01 a:hover {background:url('../images/serviceForm/customer_01_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_02 a:hover {background:url('../images/serviceForm/customer_02_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_03 a:hover {background:url('../images/serviceForm/customer_03_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_04 a:hover {background:url('../images/serviceForm/customer_04_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_05 a:hover {background:url('../images/serviceForm/customer_05_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_06 a:hover {background:url('../images/serviceForm/customer_06_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_07 a:hover {background:url('../images/serviceForm/customer_07_on.gif') 0 8px no-repeat;}
+#aside ul li ul {margin:0;padding: 23px 0;}
+#aside ul li.customer_06 ul {display:block;}
+#aside ul li ul li {border:none;margin-left:16px;}
+#aside ul li ul.lnb_depth02 li a{height:10px;background-image:none;text-indent:0;padding:4px 0;}
+#aside ul li ul.lnb_depth02 li a:hover {background-image:none;color:#76b729;font-weight:bold;letter-spacing:-0.1em;text-decoration:none;}
+#aside ul li ul.lnb_depth02 li a.on {background-image:none;color:#76b729;font-weight:bold;letter-spacing:-0.1em;text-decoration:none;}

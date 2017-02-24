@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+/* Reset */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-size:12px}
+img,fieldset,button{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{color:#000;text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+
+.blind{visibility:hidden;overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+
+h1{color:#000}
+h1,h2,h3{line-height:normal}
+
+/* Bootstrap Reset */
+.carousel-control{line-height:33px;font-size:46px;font-family:Arial}
+@media (max-width:767px){
+	body{padding-right:0;padding-left:0}
+	.navbar-fixed-top{margin-right:0;margin-left:0}
+}
+
+/* Common */
+.txtbox{border-right:1px solid #C9C9C9;border-bottom:1px solid #C9C9C9;background-color:#fff}
+
+/* Layout */
+#wrap{position:relative}
+
+/* Header */
+@-webkit-keyframes btn_over{
+	0%{background-position:0 0}
+	100%{background-position:-1365px 0}
+}
+@-moz-keyframes btn_over{
+	0%{background-position:0 0}
+	100%{background-position:-1365px 0}
+}
+@keyframes btn_over{
+	0%{background-position:0 0}
+	100%{background-position:-1365px 0}
+}
+.header .navbar .navbar-inner{background-color:#000;opacity:0.85}
+.header .navbar .navbar-inner .container a.brand{background-color:#000;color:#fff;font-family: arial,Helvetica,sans-serif;font-weight:bold;text-shadow:2px 2px 0 rgba(200,200,200,0.25)}
+
+.header .navbar .navbar-inner .container a.brand:hover{background:url(../images/btn_over.png) no-repeat #000;font-weight:bold;opacity:1;-webkit-animation:btn_over steps(7) .6s 1;-moz-animation:btn_over steps(7) .6s 1;animation:btn_over steps(7) .6s 1}
+
+.header .navbar .navbar-inner .container a.on{background:url(../images/btn_over.png) no-repeat #000;font-weight:bold;color:#fff;opacity:1;-webkit-animation:btn_over steps(7) .6s 1;-moz-animation:btn_over steps(7) .6s 1;animation:btn_over steps(7) .6s 1}
+header div.container a.brand>span{display:block;line-height:80%}
+
+#mainMenu li a{display:block;padding:0 30px;line-height:55px;color:#fff;font-size:14px;font-family: arial,Helvetica,sans-serif;text-align:center;opacity:0.4}
+
+#mainMenu li a.on{background:url(../images/btn_over.png) no-repeat #000;font-weight:bold;opacity:1;-webkit-animation:btn_over steps(7) .6s 1;-moz-animation:btn_over steps(7) .6s 1;animation:btn_over steps(7) .6s 1}
+
+#mainMenu li a:hover{background:url(../images/btn_over.png) no-repeat #000;font-weight:bold;opacity:1;-webkit-animation:btn_over steps(7) .6s 1;-moz-animation:btn_over steps(7) .6s 1;animation:btn_over steps(7) .6s 1}
+@media (min-width: 1200px){
+.container,.navbar-static-top .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container{width:1070px}
+}
+@media (max-width: 979px){
+.header .navbar #mainMenu li a{background-image:none;line-height:30px}
+.header .navbar #mainMenu li a:hover{background-image:none;-webkit-animation:none;-moz-animation:none;animation:none}
+.header .navbar #mainMenu li a.on{background-image:none;-webkit-animation:none;-moz-animation:none;animation:none}
+}
+
+/* Home */
+#home{position:absolute;width:100%;height:800px;padding:100px 0}
+#home .carousel-indicators li{background-color:rgba(130,130,130,0.25)}
+#home .carousel-indicators li.active{background-color:#000}
+#home .carousel .carousel-inner{margin:0 auto}
+#home .carousel .carousel-inner .item{margin:0 auto \0/IE8+9}
+@media (min-width: 1200px){
+	#home .carousel .carousel-inner{width:1170px}
+}
+
+/* About */
+#about{overflow:hidden;position:absolute;top:1000px;width:100%;height:1000px;padding:100px 0;background-color:#EBEBEB}
+#about .container{padding:20px}
+#about .container>h1{margin-bottom:50px;border-bottom:2px solid #000;font-size:40px;letter-spacing:-3px}
+#about .container .row{margin:0}
+#about .container .sect-profile .txtbox-profile{margin:0 20px 0 0}
+#about .container .sect-profile .txtbox-profile.last{margin:0}
+#about .container .sect-profile .txtbox-profile.last::before{clear:both}
+#about .container .sect-profile .span2{width:165px}
+#about .container .sect-profile .span4{width:316px}
+#about .container .sect-profile .span4 + .span4{width:360px}
+#about .container .sect-profile .list-profile{padding:15px;}
+#about .container .sect-profile .list-profile>dt{margin-bottom:20px;font-size:20px;font-weight:bold;letter-spacing:-1px}
+#about .container .sect-profile .list-profile>dd{padding-left:10px}
+#about .container .sect-profile .list-profile .list-profile-info{padding-left:5px}
+#about .container .sect-profile .list-profile .list-profile-info li{font-size:13px;list-style-type:square}
+@media (max-width: 1199px){
+ 	#about .container .sect-profile .txtbox-profile{margin-bottom:20px}
+}
+@media (min-width:481px) and (max-width:767px){
+	#about .container .sect-profile{margin-left:130px;margin-right:130px}
+}
+@media (max-width: 767px){
+	#about .container .sect-profile .span2,#about .container .sect-profile .span4,#about .container .sect-profile .span4 + .span4{width:100%}
+}
+
+/* Portfolio */
+#portfolio{position:absolute;top:2000px;width:100%;height:800px;padding:100px 0;background-color:#EBEBEB}
+#portfolio .container{padding:20px}
+#portfolio .container>h1{margin-bottom:50px;border-bottom:2px solid #000;font-size:40px;letter-spacing:-3px}
+#portfolio .container .row{margin:0}
+#portfolio .container .portflio-wrap{position:relative}
+#portfolio .txtbox-portfolio-info{position:absolute;right:0;margin:0;padding:20px}
+#portfolio .span4{width:410px}
+#portfolio .txtbox-portfolio-info>h2{margin-bottom:15px;border-bottom:1px solid #000;font-size:25px;line-height:30px;word-break:break-all}
+#portfolio .txtbox-portfolio-info>h2>a{padding-left:20px;font-size:13px;font-weight:normal;word-wrap:break-word;text-decoration:inherit}
+#portfolio .txtbox-portfolio-info .list-portfolio>li.on{display:block}
+#portfolio .txtbox-portfolio-info .list-portfolio>li{display:none}
+#portfolio .txtbox-portfolio-info .list-portfolio>li .desc-portfolio{}
+#portfolio .txtbox-portfolio-info .list-portfolio .desc-portfolio>dt,#portfolio .txtbox-portfolio-info .list-portfolio .desc-portfolio>dd{font-size:13px}
+#portfolio .txtbox-portfolio-info .list-portfolio .desc-portfolio dt{float:left;padding-right:5px;font-weight:bold}
+#portfolio .txtbox-portfolio-info .list-portfolio .desc-portfolio dd{}
+#portfolio .txtbox-portfolio-info .list-portfolio .desc-portfolio .description{display:table}
+#portfolio .txtbox-portfolio-info .list-portfolio .desc-portfolio .before{word-break:break-all}
+#portfolio .txtbox-portfolio-info .list-portfolio .desc-portfolio>dd>ul{}
+#portfolio .txtbox-portfolio-info .list-portfolio .desc-portfolio>dd>ul>li{}
+#portfolio .txtbox-portfolio-info .list-portfolio .desc-portfolio>dd>a{word-wrap:break-word;text-decoration:inherit}
+#portfolio .list-view{position:relative;height:413px;margin:0;background:url(../images/iMac3.png) no-repeat}
+#portfolio .span5{width:500px}
+
+#viewImg{overflow:hidden;position:absolute;top:5%;left:20%;height:256px}
+#viewImg .span3{float:none;width:305px;margin:0}
+#viewImg li{display:none}
+#viewImg li.on{display:block}
+#viewImg li img{width:100%}
+
+#thumImg{z-index:100;position:absolute;top:5px;left:515px}
+#thumImg li{display:block;float:none;margin:0 0 15px;border:1px solid #333;cursor:pointer}
+#thumImg li.on{border:2px solid #000}
+#thumImg li img{width:100%}
+@media screen and (min-width: 1200px){
+	#portfolio .span4{width:410px}
+	#portfolio .span5{width:500px}
+	#viewImg .span3{float:none;width:305px;margin:0}
+	#thumImg{top:5px;left:515px}
+	#thumImg .span1{width:80px}
+}
+@media (min-width:768px) and (max-width:1199px){
+	#portfolio .span4{width:300px}
+	#viewImg .span3{float:none;width:305px;margin:0}
+	#thumImg{top:5px;left:515px}
+	#thumImg li{margin:0 0 10px;}
+
+}
+@media (max-width:767px){
+	#portfolio .container h2{margin-bottom:150px}
+	#portfolio .container .portflio-wrap{margin-left:0;margin-right:0}
+	#portfolio .list-view,#viewImg{display:none}
+	#portfolio .txtbox-portfolio-info{position:relative;right:0;padding:10px}
+	#portfolio .span4{width:100%}
+	#portfolio .txtbox-portfolio-info h3 a{display:inline-block;padding:0}
+	#portfolio .txtbox-portfolio-info .list-portfolio .desc-portfolio>dt{float:none}
+	#thumImg{top:60px;left:10px}
+	#thumImg li{float:left;margin:0 10px 10px 0}
+	#thumImg .span1{width:60px;height:51px}
+}
+
+/* Contact */
+#contact{position:absolute;top:3000px;width:100%;height:700px;padding:100px 0}
+#contact .container .row{margin-left:20px;padding-top:150px;padding-bottom:60px}
+#contact .row .sect-contact{padding:20px 0;background:url(../images/contact.png) right no-repeat}
+#contact .container .row .sect-contact>h1{margin-bottom:50px;font-size:50px;letter-spacing:-3px}
+#contact .container .row .sect-contact .list-contact{font-size:15px;line-height:200%}
+#contact .container .row .sect-contact .list-contact>dt{float:left;font-weight:bold}
+#contact .container .row .sect-contact .list-contact>dt.mobile{padding-right:100px}
+#contact .container .row .sect-contact .list-contact>dt.mail{padding-right:118px}
+#contact .container .row .sect-contact .list-contact>dt.blog{padding-right:114px}
+#contact .container .row .sect-contact .list-contact>dt.nateon{padding-right:92px}
+@media screen and (min-width: 1200px){
+	#contact .container .row .span7{width:670px}
+}
+@media (min-width:768px) and (max-width:1199px){
+	#contact .container .row .span7{width:670px}
+	#contact .container .row .sect-contact .list-contact>dt.mobile{padding-right:100px}
+	#contact .container .row .sect-contact .list-contact>dt.mail{padding-right:119px}
+	#contact .container .row .sect-contact .list-contact>dt.nateon{padding-right:92px}
+}
+@media (max-width:767px){
+	#contact .container .row .sect-contact{background:none}
+	#contact .container .row .sect-contact .list-contact>dt.mobile{padding-right:20px}
+	#contact .container .row .sect-contact .list-contact>dt.mail{padding-right:40px}
+	#contact .container .row .sect-contact .list-contact>dt.blog{padding-right:36px}
+	#contact .container .row .sect-contact .list-contact>dt.nateon{padding-right:14px}
+}
+
+@media (max-width:979px){
+	#home,#about,#portfolio,#contact{position:relative;top:0;padding:0}
+	#home,#about,#contact{position:relative;top:0;height:auto;padding:0}
+}
+
+/* TOP Button */
+.top a{display:block;position:fixed;right:10px;bottom:10px;width:30px;height:30px;padding:10px;background:#000;color:#fff;text-align:center;text-decoration:none}
+@media (max-width:979px){
+.top{display:block}
+}
+@media (min-width:980px) and (max-width:1199px){
+.top{display:none}
+}
+@media (min-width:1200px){
+.top{display:none}
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<title>웹퍼블리셔 유찬현</title>
+<meta name="description" content="웹퍼블리셔 유찬현의 포트폴리오 웹사이트입니다. html5,css3 로 제작된 반응형 사이트입니다. Chrome, IE 10이상에서 보다 다양한 효과들을 보실 수 있습니다." />
+<meta name="keywords" content="유찬현,Yoo Chanhyun,웹퍼블리셔,Web Publisher,퍼블리셔,Publisher,개발자,Developer,포트폴리오,Portfolio,UI,UX,HTML,CSS,자바스크립트,JavaScript,제이쿼리,Jquery,웹접근성,웹표준" />
+<meta name="author" content="유찬현" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" media="screen"> 
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script src="js/controller.js"></script>
+<!-- HTML5 old IE enabling script -->
+<!--[if lt IE 9]>
+<script src="js/respond.min.js"></script>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div id="wrap">
+	<header id="header" class="header">
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<h1><a class="brand brand-bootus on" href="#header">Web Publisher<span>Yoo Chanhyun</span></a></h1>
+					<button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="nav-collapse collapse">
+						<ul id="mainMenu" class="nav pull-right">
+							<li><a class="on" href="#home">HOME</a></li>
+							<li><a href="#about">ABOUT</a></li>
+							<li><a href="#portfolio">PORTFOLIO</a></li>
+							<li><a href="#contact">CONTACT</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="home">
+		<h1 class="blind">웹 퍼블리셔 유찬현 소개</h1>
+		<div id="bannerCarousel" class="carousel slide">
+			<ol class="carousel-indicators">
+				<li data-target="#bannerCarousel" data-slide-to="0" class="active"><span class="blind">banner1</span></li>
+				<li data-target="#bannerCarousel" data-slide-to="1" class=""><span class="blind">banner2</span></li>
+				<li data-target="#bannerCarousel" data-slide-to="2" class=""><span class="blind">banner3</span></li>				
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="images/banner2.3.png" alt="탐구심">
+				</div>
+				<div class="item">
+					<img src="images/banner1.2.png" alt="꼼꼼함">
+				</div>
+				<div class="item">
+					<img src="images/banner3.1.png" alt="소통">
+				</div>
+			</div>
+			<a class="left carousel-control" href="#bannerCarousel" data-slide="prev" title="prev">‹</a>
+			<a class="right carousel-control" href="#bannerCarousel" data-slide="next" title="next">›</a>
+		</div>
+	</section>
+	<section id="about">
+		<div class="container">
+			<h1>Profile</h1>
+			<div class="row sect-profile">
+				<div class="span4 txtbox-profile txtbox">
+					<dl class="list-profile">
+						<dt>Academic</dt>
+						<dd>
+							<ul class="list-profile-info">
+								<li>고려사이버대학교 컴퓨터정보통신과 재학</li>
+								<li>한국폴리텍대학 콘텐츠디자인과 수료</li>
+								<li>그린아카데미 웹퍼블리셔 전문가 과정 수료</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+				<div class="span4 txtbox-profile txtbox">
+					<dl class="list-profile">
+						<dt>Career</dt>
+						<dd>
+							<ul class="list-profile-info">
+								<li>[year.2016] 전자랜드 프라이스킹 쇼핑몰(PC/Mobile) 구축 및 유지보수</li>
+								<li>[year.2016] SK techx 티저 웹사이트 구축</li>
+								<li>[year.2015-2016] PCN 내부운영 통합 프로젝트 유지보수 및 운영 퍼블리싱</li>
+								<li>[year.2015] 한은가족 모바일 구축</li>
+								<li>[year.2015] 세아제단 구축</li>
+								<li>[year.2015] 삼성서울병원 전문가 설문 구축</li>
+								<li>[year.2015] 한샘 인테리어 모바일 구축</li>
+								<li>[year.2015] 한샘 키친, 인테리어(PC/Mobile)사이트 유지보수 및 운영 퍼블리싱</li>
+								<li>[year.2015] Netgear ReedyBOOT Admin(반응형) 유지보수 및 운영 퍼블리싱, 개발(Angular JS)</li>
+								<li>[year.2014] 네이버 스토어팜, 체크아웃 서비스(PC/Mobile) 유지보수 및 운영</li>
+								<li>[year.2013] 한국무역정보통신 프로젝트</li>
+								<li>[year.2012-2013] 삼성SDS Samsung Hub</li>
+								<li>[year.2012] 롯데닷컴 키엘 온라인 스토어 구축</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+				<div class="span2 txtbox-profile txtbox">
+					<dl class="list-profile">
+						<dt>License</dt>
+						<dd>
+							<ul class="list-profile-info">
+								<li>웹 디자인 기능사</li>
+								<li>전자 출판 기능사</li>
+								<li>컴퓨터활용능력 2급(1차합격)</li>
+								<li>워드프로세서 3급</li>
+								<li>운전면허 1종 보통</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+				<div class="span2 txtbox-profile txtbox last">
+					<dl class="list-profile">
+						<dt>Skill</dt>
+						<dd>
+							<ul class="list-profile-info">
+								<li>웹표준, 웹접근성</li>
+								<li>크로스 브라우징</li>
+								<li>XHTML1.0</li>
+								<li>HTML5</li>
+								<li>CSS2, CSS3</li>
+								<li>JavaScript</li>
+								<li>jQuery</li>
+								<li>Java</li>
+								<li>adobe Photoshop</li>
+								<li>adobe Illustrator</li>
+								<li>adobe Flash</li>
+								<li>adobe Indesign</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="portfolio">
+		<div class="container">
+			<h1>Portfolio</h1>
+			<div class="row portflio-wrap">
+				<div class="span5 list-view">
+					<ul id="viewImg">
+						<li class="span3 on"><img src="images/main.jpg" alt="신도리코 메인 페이지" /></li>
+						<li class="span3"><img src="images/companyhistory.jpg" alt="신도리코 회사연혁 페이지" /></li>
+						<li class="span3"><img src="images/serviceform.jpg" alt="신도리코 서비스신청 페이지" /></li>
+						<li class="span3"><img src="images/serviceguarantee.jpg" alt="신도리코 제품별 보증기간 &amp; 지원 페이지" /></li>
+						<li class="span3"><img src="images/servicesystem.jpg" alt="신도리코 서비스체계 페이지" /></li>
+					</ul>
+				</div>
+				<ul id="thumImg">
+					<li class="span1 on"><img src="images/main.jpg" alt="신도리코 메인 페이지" /></li>
+					<li class="span1"><img src="images/companyhistory.jpg" alt="신도리코 회사연혁 페이지" /></li>
+					<li class="span1"><img src="images/serviceform.jpg" alt="신도리코 서비스신청 페이지" /></li>
+					<li class="span1"><img src="images/serviceguarantee.jpg" alt="신도리코 제품별 보증기간 &amp; 지원 페이지" /></li>
+					<li class="span1"><img src="images/servicesystem.jpg" alt="신도리코 서비스체계 페이지" /></li>
+				</ul>
+				<div class="span4 txtbox-portfolio-info txtbox">
+					<h2>Sindoh<a target="_blank" href="http://www.sindoh.co.kr" title="새창열림">http://www.sindoh.co.kr</a></h2>
+					<ul id="portfolioDesc" class="list-portfolio">
+						<li class="on">
+							<dl class="desc-portfolio">
+								<dt>Page :</dt>
+								<dd>Main</dd>
+								<dt>Description :</dt>
+								<dd class="description">
+									<ul>
+										<li><b>[공통]</b> 웹표준, 웹접근성을 준수하여 마크업</li>
+										<li><b>[공통]</b> meta 태그의 키워드 및 요약 설명 정의 추가</li>
+										<li><b>[공통]</b> skip navigation 추가(Tab Key로 접근해주세요)</li>
+										<li>heading 태그 추가</li>
+										<li>footer 영역에 E-mail 링크 추가</li>
+										<li>베너 js기능구현</li>
+										<li><b>[공통]</b> header, footer영역 메뉴 js기능구현</li>
+									</ul>
+								</dd>
+								<dt>BEFORE :</dt>
+								<dd class="before"><a target="_blank" href="http://www.sindoh.co.kr" title="새창열림">http://www.sindoh.co.kr</a></dd>
+								<dt>AFTER :</dt>
+								<dd class="after"><a target="_blank" href="http://uchan.dothome.co.kr/project_SINDOH/index.html" title="새창열림">index.html</a></dd>
+							</dl>
+						</li>
+						<li>
+							<dl class="desc-portfolio">
+								<dt>Page :</dt>
+								<dd>companyHistory</dd>
+								<dt>Description :</dt>
+								<dd class="description">
+									<ul>
+										<li>회사연혁 이미지에 longdesc 적용</li>
+										<li>현재 페이지 경로 dl 태그로 추가/수정 및 해당 페이지 명을 strong 태그로 수정</li>
+										<li><b>[공통]</b> snb메뉴 js기능구현</li>
+									</ul>
+								</dd>
+								<dt>BEFORE :</dt>
+								<dd class="before"><a target="_blank" href="http://www.sindoh.co.kr/about/about_company_history.do" title="새창열림">/about/about_company_history.do</a></dd>
+								<dt>AFTER :</dt>
+								<dd class="after"><a target="_blank" href="http://uchan.dothome.co.kr/project_SINDOH/companyHistory.html" title="새창열림">companyHistory.html</a></dd>
+							</dl>
+						</li>
+						<li>
+							<dl class="desc-portfolio">
+								<dt>Page :</dt>
+								<dd>serviceForm</dd>
+								<dt>Description :</dt>
+								<dd class="description">
+									<ul>
+										<li>서비스 신청양식 최상단에 필수항목 안내문구 추가</li>
+										<li>fieldset, legend, label 태그 추가</li>
+										<li>휴대폰 번호 항목에 안내사항을 dl 태그로 추가/수정</li>
+										<li>비밀번호 안내사항을 dl 태그로 추가/수정 및 마크업 순서 변경</li>
+										<li>개인정보취급방침을 서비스 신청항목 입력란 이전으로 마크업 순서 변경</li>
+									</ul>
+								</dd>
+								<dt>BEFORE :</dt>
+								<dd class="before"><a target="_blank" href="http://www.sindoh.co.kr/customer/service/serviceForm.do" title="새창열림">/customer/service/serviceForm.do</a></dd>
+								<dt>AFTER :</dt>
+								<dd class="after"><a target="_blank" href="http://uchan.dothome.co.kr/project_SINDOH/serviceForm.html" title="새창열림">serviceForm.html</a></dd>
+							</dl>
+						</li>
+						<li>
+							<dl class="desc-portfolio">
+								<dt>Page :</dt>
+								<dd>serviceGuarantee</dd>
+								<dt>Description :</dt>
+								<dd class="description">
+									<ul>
+										<li>데이터 전달이 용이하도록 테이블 구조 변경</li>
+										<li>테이블 내 데이터들을 ul, dl 태그로 추가/변경</li>
+										<li>테이블의 제목 셀과 내용 셀을 연결</li>
+										<li>br 태그 삭제, 시각적 개행이 필요한 경우 css로 처리</li>
+										<li>contents영역 탭메뉴 js기능 구현</li>
+									</ul>
+								</dd>
+								<dt>BEFORE :</dt>
+								<dd class="before"><a target="_blank" href="http://www.sindoh.co.kr/customer/service/customer_service_guarantee.do" title="새창열림">/customer/service/customer_service_guarantee.do</a></dd>
+								<dt>AFTER :</dt>
+								<dd class="after"><a target="_blank" href="http://uchan.dothome.co.kr/project_SINDOH/serviceGuarantee.html" title="새창열림">serviceGuarantee.html</a></dd>
+							</dl>
+						</li>
+						<li>
+							<dl class="desc-portfolio">
+								<dt>Page :</dt>
+								<dd>serviceSystem</dd>
+								<dt>Description :</dt>
+								<dd class="description">
+									<ul>
+										<li>각 img 태그에 title 추가</li>
+										<li>contents영역 탭메뉴, 이미지슬라이드 js기능 구현</li>
+									</ul>
+								</dd>
+								<dt>BEFORE :</dt>
+								<dd class="before"><a target="_blank" href="http://www.sindoh.co.kr/customer/service/customer_service_system.do" title="새창열림">/customer/service/customer_service_system.do</a></dd>
+								<dt>AFTER :</dt>
+								<dd class="after"><a target="_blank" href="http://uchan.dothome.co.kr/project_SINDOH/serviceSystem.html" title="새창열림">serviceSystem.html</a></dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div> 
+	</section>
+	<section id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="span7 sect-contact">
+					<h1>Contact Us</h1>
+					<dl class="list-contact">
+						<dt class="mobile">Mobile</dt>
+						<dd>010 - 3690 - 1115</dd>
+						<dt class="mail">Mail</dt>
+						<dd><a href="mailto:issueych@naver.com" style="color:#333;">issueych@naver.com</a></dd>
+						<dt class="blog">Blog</dt>
+						<dd><a href="http://bonedev.tistory.com" style="color:#333;">http://bonedev.tistory.com</a></dd>
+						<dt class="nateon">NateON</dt>
+						<dd>issueych@nate.com</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="top">
+		<a href="#header">TOP</a>
+	</div>
+</div>
+</body>
+</html>

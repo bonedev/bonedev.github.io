@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>MetLife Admin</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	<link href="css/style.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/common.js"></script>
+</head>
+<body class="wrapper2">
+	<div class="login-wrap">
+		<h1 class="logo-title"><img src="images/logo.png" alt="MetLife" /></h1>
+		<div class="login-box">
+			<h2 class="txt-title">MetLife Admin Login</h2>
+			<form name="" method="" action="">
+				<div class="radio-group">
+					<input type="radio" name="userType" id="userGeneral" class="radio" checked />
+					<label for="userGeneral" class="lab">일반관리자</label>
+					<input type="radio" name="userType" id="userSales" class="radio" />
+					<label for="userSales" class="lab">Sales Materials 심사관리자</label>
+					<input type="radio" name="userType" id="userPrint" class="radio" />
+					<label for="userPrint" class="lab">인쇄물 청구시스템 관리자</label>
+				</div>
+				<div class="inp-group">
+					<input type="text" class="inp-comm" title="아이디 입력필드" placeholder="아이디" />
+					<input type="password" class="inp-comm" title="비밀번호 입력필드" placeholder="비밀번호" />
+					<button type="submit" class="btn-comm btn-login">로그인</button>
+				</div>
+				<p class="txt-notice">
+					<span>관리자 비밀번호에 대한 보안에 유의해 주시기 바랍니다.</span>
+				</p>
+			</form>
+		</div>
+	</div>
+</body>
+<script>
+	var main = {
+			loginPos : function() {
+				var $loginWrap = $(".login-wrap"),
+					loginWrapW = $loginWrap.width(),
+					loginWrapH = $loginWrap.height(),
+					posX = (loginWrapW/2)*-1+'px',
+					posY = (loginWrapH/2)*-1+'px';
+				
+					$loginWrap.css({marginTop:posY,marginLeft:posX});
+			}
+			
+	}
+	$(document).ready(function() {
+		main.loginPos();
+	})
+</script>
+</html>

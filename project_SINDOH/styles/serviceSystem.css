@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+
+body {background:url('../images/common/bg_body.jpg') no-repeat 50% 0 #fff;}
+
+#path {height:19px;float:right;font-size:11px;}
+#contents {overflow:hidden;clear:both;background:url('../images/serviceForm/bg_container_02.png') 0 bottom repeat-y;margin-bottom:24px;padding-top:20px;}
+	
+#main_contents {position:relative;float:right;width:650px;margin: 0 auto;padding: 0 20px 20px 20px;}
+#main_contents h1 {float:left;margin-bottom:20px;}
+#main_contents h1 span {float:right;background:url('../images/serviceForm/line_h4.gif') 0 2px no-repeat;margin-left:10px;padding:2px 0 0 9px;}
+
+#main_contents h2 {cursor:pointer;}
+#main_contents h2.serviceInfra_tap {clear:both;margin-left:-19px;}
+#main_contents div.serviceInfra_contents {padding-top:30px;}
+#main_contents div.serviceInfra_contents p.serviceInfra_firstText {margin-bottom:30px;color:#71b529;font-weight:bold;line-height:1.6em;}
+#main_contents div.serviceInfra_contents h3 {margin-bottom:20px;}
+#main_contents div.serviceInfra_contents ul.serviceNetwork_list {margin-left:20px;}
+#main_contents div.serviceInfra_contents ul.serviceNetwork_list dl dt {padding-bottom:10px;font-weight:bold;}
+#main_contents div.serviceInfra_contents ul.serviceNetwork_list dl dd {padding-bottom:20px;line-height:1.4em;}
+#main_contents div.serviceInfra_contents p.ITexpertService_title {margin-bottom:30px;line-height:1.6em;}
+
+#main_contents div.serviceInfra_contents h3.ITexpertService_title {margin-top:20px;}
+#main_contents div.serviceInfra_contents ul.ITexpertService_list {margin-top:30px;}
+#main_contents div.serviceInfra_contents ul.ITexpertService_list li {display:none;}
+#main_contents div.serviceInfra_contents ul.ITexpertService_list li.on {display:block;}
+#main_contents div.serviceInfra_contents ul.ITexpertService_list li dl dt {margin-bottom:5px;}
+#main_contents div.serviceInfra_contents ul.ITexpertService_list li dl dd {background-color:#ebebeb;padding:5px 0;text-align:center;}
+#main_contents div.serviceInfra_contents div.thumList_box {position:relative;margin-bottom:40px;}
+#main_contents div.serviceInfra_contents div.thumList_box div.thumList_outerBox {position:relative;width:100%;overflow:hidden;border-top:1px solid #d2d2d2;border-bottom:1px solid #d2d2d2;background-color:#fff;margin-top:30px;padding:20px 0;}
+#main_contents div.serviceInfra_contents div.thumList_box #prev {display:block;position:absolute;left:10px;top:20px;height:74px;width:21px;background:url('../images/serviceSystem/arrow_about_galleryL.gif') left center no-repeat;text-indent:-5000px;}
+#main_contents div.serviceInfra_contents div.thumList_box #next {display:block;position:absolute;right:10px;top:20px;height:74px;width:21px;background:url('../images/serviceSystem/arrow_about_galleryR.gif') right center no-repeat;text-indent:-5000px;}
+#main_contents div.serviceInfra_contents div.thumList_box #thumList_innerBox {overflow:hidden;position:relative;width:605px;height:74px;margin:0 auto;}
+#main_contents div.serviceInfra_contents div.thumList_box #thumList {overflow:hidden;position:relative;width:1210px;}
+#main_contents div.serviceInfra_contents div.thumList_box #thumList li {float:left;height:74px;width:109px;padding:0 6px;}
+#main_contents div.serviceInfra_contents div.thumList_box #thumList li img {display:block;border:2px solid #d3d3d3;cursor:pointer;}
+#main_contents div.serviceInfra_contents div.thumList_box #thumList li img.on {border:2px solid #76b729;}
+
+#main_contents h2.serviceInnovation_tap {position:absolute;top:38px;right:0;}
+#main_contents div.serviceInnovation_contents {display:none;margin-top:30px;}
+#main_contents div.serviceInnovation_contents p.serviceInnovation_firstText {margin-bottom:30px;color:#71b529;font-weight:bold;line-height:1.6em;}
+#main_contents div.serviceInnovation_contents h3 {margin-bottom:20px;}
+#main_contents div.serviceInnovation_contents p {margin-bottom:20px;line-height:1.6em;}
+#main_contents div.serviceInnovation_contents dt {margin-bottom:10px;font-weight:bold;}
+#main_contents div.serviceInnovation_contents dd {margin-bottom:20px;}
+#main_contents div.serviceInnovation_contents div.orgImg_box1 {margin-bottom:20px;padding-top:30px;}
+#main_contents div.serviceInnovation_contents div.orgImg_box1 ul {}
+#main_contents div.serviceInnovation_contents div.orgImg_box1 li.on {display:block;}
+#main_contents div.serviceInnovation_contents div.orgImg_box1 li {display:none;}
+#main_contents div.serviceInnovation_contents div.orgImg_box1 li dt{margin-bottom:5px;}
+#main_contents div.serviceInnovation_contents div.orgImg_box1 li dd{background-color:#ebebeb;padding:5px 0;text-align:center;}
+#main_contents div.serviceInnovation_contents div.thumList_box1 {overflow:hidden;width:100%;border-top:1px solid #d2d2d2;border-bottom:1px solid #d2d2d2;margin-bottom:40px;padding:20px 0;}
+#main_contents div.serviceInnovation_contents div.thumList_box1 ul {position:relative;left:5px;width:580px;margin:0 auto;}
+#main_contents div.serviceInnovation_contents div.thumList_box1 li {float:left;width:109px;padding:0 6px;cursor:pointer;}
+#main_contents div.serviceInnovation_contents div.thumList_box1 li img {display:block;border:2px solid #d3d3d3;}
+#main_contents div.serviceInnovation_contents div.thumList_box1 li img.on {border:2px solid #76b729;}
+#main_contents div.serviceInnovation_contents div.orgImg_box2 {padding-top:30px;margin-bottom:20px;}
+#main_contents div.serviceInnovation_contents div.orgImg_box2 ul {}
+#main_contents div.serviceInnovation_contents div.orgImg_box2 li.on {display:block;}
+#main_contents div.serviceInnovation_contents div.orgImg_box2 li {display:none;}
+#main_contents div.serviceInnovation_contents div.orgImg_box2 li dt{margin-bottom:5px;}
+#main_contents div.serviceInnovation_contents div.orgImg_box2 li dd{background-color:#ebebeb;padding:5px 0;text-align:center;}
+#main_contents div.serviceInnovation_contents div.thumList_box2 {overflow:hidden;width:100%;border-top:1px solid #d2d2d2;border-bottom:1px solid #d2d2d2;margin-bottom:40px;padding:20px 0;}
+#main_contents div.serviceInnovation_contents div.thumList_box2 ul {position:relative;left:5px;width:580px;margin:0 auto;}
+#main_contents div.serviceInnovation_contents div.thumList_box2 li {float:left;width:109px;padding:0 6px;cursor:pointer;}
+#main_contents div.serviceInnovation_contents div.thumList_box2 li img {display:block;border:2px solid #d3d3d3;}
+#main_contents div.serviceInnovation_contents div.thumList_box2 li img.on {border:2px solid #76b729;}
+
+
+#aside {float:left;width:200px;}
+#aside h2 {margin:0 0 30px 20px;}
+#aside ul {width:150px;border-top:1px solid #969696;margin-left:20px;}
+#aside ul li {border-bottom:1px solid #969696;}
+#aside ul li a {display:block;height:29px;text-indent:-5000px;}
+#aside ul li.customer_01 a {background:url('../images/serviceForm/customer_01.gif') 0 8px no-repeat;}
+#aside ul li.customer_02 a {background:url('../images/serviceForm/customer_02.gif') 0 8px no-repeat;}
+#aside ul li.customer_03 a {background:url('../images/serviceForm/customer_03.gif') 0 8px no-repeat;}
+#aside ul li.customer_04 a {background:url('../images/serviceForm/customer_04.gif') 0 8px no-repeat;}
+#aside ul li.customer_05 a {background:url('../images/serviceForm/customer_05.gif') 0 8px no-repeat;}
+#aside ul li.customer_06 a {background:url('../images/serviceForm/customer_06.gif') 0 8px no-repeat;}
+#aside ul li.customer_07 a {background:url('../images/serviceForm/customer_07.gif') 0 8px no-repeat;}
+
+#aside ul li.customer_01 a.on {background:url('../images/serviceForm/customer_01_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_02 a.on {background:url('../images/serviceForm/customer_02_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_03 a.on {background:url('../images/serviceForm/customer_03_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_04 a.on {background:url('../images/serviceForm/customer_04_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_05 a.on {background:url('../images/serviceForm/customer_05_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_06 a.on {background:url('../images/serviceForm/customer_06_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_07 a.on {background:url('../images/serviceForm/customer_07_on.gif') 0 8px no-repeat;}
+
+#aside ul li.customer_01 a:hover {background:url('../images/serviceForm/customer_01_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_02 a:hover {background:url('../images/serviceForm/customer_02_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_03 a:hover {background:url('../images/serviceForm/customer_03_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_04 a:hover {background:url('../images/serviceForm/customer_04_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_05 a:hover {background:url('../images/serviceForm/customer_05_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_06 a:hover {background:url('../images/serviceForm/customer_06_on.gif') 0 8px no-repeat;}
+#aside ul li.customer_07 a:hover {background:url('../images/serviceForm/customer_07_on.gif') 0 8px no-repeat;}
+#aside ul li ul {margin:0;padding: 23px 0;}
+#aside ul li.customer_06 ul {display:block;}
+#aside ul li ul li {border:none;margin-left:16px;}
+#aside ul li ul.lnb_depth02 li a{height:10px;background-image:none;text-indent:0;padding:4px 0;}
+#aside ul li ul.lnb_depth02 li a:hover {background-image:none;color:#76b729;font-weight:bold;letter-spacing:-0.1em;text-decoration:none;}
+#aside ul li ul.lnb_depth02 li a.on {background-image:none;color:#76b729;font-weight:bold;letter-spacing:-0.1em;text-decoration:none;}
+
+

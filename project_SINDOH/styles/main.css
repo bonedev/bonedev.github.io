@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+#contents div.main_contents{margin:17px 0 70px;overflow:hidden;}
+#contents div {}
+#contents div.contents_group1 {float:left;}
+#contents div.banner1 {width:293px;height:290px;}
+#contents div.banner2 {position:relative;width:263px;height:160px;margin-top:9px;padding:0px 15px 0 15px;background-color:#fff;overflow:hidden;}
+#contents div.banner2 h3 {z-index:200;cursor:pointer;}
+#contents div.banner2 h3.notice_tab {padding-top:20px;width:62px;position:absolute;top:0px;left:15px;background:url('../images/main/tab_bg.gif') right bottom no-repeat;}
+#contents div.banner2 h3.report_tab {width:54px;height:17px;position:absolute;top:20px;left:78px;}
+#contents div.banner2 ul {margin-top:60px;}
+#contents div.banner2 ul li {background:url('../images/main/bullet_black_03.gif') 0 5px no-repeat;padding-left:10px;font-size:11px;}
+#report_list {display:none;}
+#contents div.banner2 p {z-index:100;height:35px;width:263px;position:absolute;top:15px; left:15px;border-bottom:1px solid #969696;}
+#contents div.banner2 p a{float:right;}
+#contents div.contents_group2 {float:left;margin-left:9px;}
+#contents div.banner3 {}
+#contents #banner4 {position:relative;width:294px;height:215px;margin-top:9px;overflow:hidden;}
+#contents #banner4 dd ul.rolling {width:882px;}
+#contents #banner4 dd li {float:left;}
+#contents div.banner4_btns {position:absolute;left:10px;bottom:10px;}
+#contents div.banner4_btns ul li{float:left;}
+#contents div.banner4_btns ul li a {width:25px;height:20px;display:block;text-indent:-5000px;}/*overflow:hidden;?*/
+#contents div.banner4_btns ul li.btn1 a{background:url('../images/main/main_tab01_off.gif') no-repeat;}
+#contents div.banner4_btns ul li.btn2 a{background:url('../images/main/main_tab02_off.gif') no-repeat;}
+#contents div.banner4_btns ul li.btn3 a{background:url('../images/main/main_tab03_off.gif') no-repeat;}
+#contents div.banner4_btns ul li.btn1 a.select{background:url('../images/main/main_tab01_on.gif') no-repeat;}
+#contents div.banner4_btns ul li.btn2 a.select{background:url('../images/main/main_tab02_on.gif') no-repeat;}
+#contents div.banner4_btns ul li.btn3 a.select{background:url('../images/main/main_tab03_on.gif') no-repeat;}
+#contents div.banner5 {float:left;margin-top:10px;}
+#contents div.banner6 {float:left;margin:10px 0 0 9px;}
+#contents div.contents_group3 {float:left;margin:155px 0 0 9px;}
+#contents div.banner7 {margin-bottom:10px;}
+#contents div.banner8 {margin-top:9px;}
+ 
+

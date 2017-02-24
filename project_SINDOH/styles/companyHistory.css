@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+body {background:url('../images/common/bg_body.jpg') no-repeat 50% 0 #fff;}
+
+#path {float:right;height:19px;font-size:11px;}
+#contents {overflow:hidden;clear:both;background:url('../images/common/bg_container_02.png') 0 bottom repeat-y;margin-bottom:24px;padding-top:20px;}
+
+	#main_contents {position:relative;float:right;width:650px;margin: 0 auto;padding: 0 20px 20px 20px;}
+	#main_contents h1 {float:left;margin-bottom:20px;}
+	#main_contents h1 span {float:right;background:url('../images/common/line_h4.gif') no-repeat 0 2px;margin-left:10px;padding:3px 0 0 10px;}
+
+	#aside {float:left;width:200px;}
+	#aside h2 {margin:0 0 30px 20px;}
+	#aside ul {width:150px;border-top:1px solid #969696;margin-left:20px;}
+	#aside ul li {border-bottom:1px solid #969696;}
+	#aside ul li a {height:29px;display:block;text-indent:-5000px;}
+	#aside ul li.company_01 a {background:url('../images/companyHistory/about_01.gif') 0 8px no-repeat;}
+	#aside ul li.company_02 a {background:url('../images/companyHistory/about_02.gif') 0 8px no-repeat;}
+	#aside ul li.company_03 a {background:url('../images/companyHistory/about_03.gif') 0 8px no-repeat;}
+	#aside ul li.company_04 a {background:url('../images/companyHistory/about_04.gif') 0 8px no-repeat;}
+	#aside ul li.company_05 a {background:url('../images/companyHistory/about_05.gif') 0 8px no-repeat;}
+	#aside ul li.company_06 a {background:url('../images/companyHistory/about_06.gif') 0 8px no-repeat;}
+
+	#aside ul li.company_01 a.on {background:url('../images/companyHistory/about_01_on.gif') 0 8px no-repeat;}
+	#aside ul li.company_02 a.on {background:url('../images/companyHistory/about_02_on.gif') 0 8px no-repeat;}
+	#aside ul li.company_03 a.on {background:url('../images/companyHistory/about_03_on.gif') 0 8px no-repeat;}
+	#aside ul li.company_04 a.on {background:url('../images/companyHistory/about_04_on.gif') 0 8px no-repeat;}
+	#aside ul li.company_05 a.on {background:url('../images/companyHistory/about_05_on.gif') 0 8px no-repeat;}
+	#aside ul li.company_06 a.on {background:url('../images/companyHistory/about_06_on.gif') 0 8px no-repeat;}
+
+	#aside ul li.company_01 a:hover {background:url('../images/companyHistory/about_01_on.gif') 0 8px no-repeat;}
+	#aside ul li.company_02 a:hover {background:url('../images/companyHistory/about_02_on.gif') 0 8px no-repeat;}
+	#aside ul li.company_03 a:hover {background:url('../images/companyHistory/about_03_on.gif') 0 8px no-repeat;}
+	#aside ul li.company_04 a:hover {background:url('../images/companyHistory/about_04_on.gif') 0 8px no-repeat;}
+	#aside ul li.company_05 a:hover {background:url('../images/companyHistory/about_05_on.gif') 0 8px no-repeat;}
+	#aside ul li.company_06 a:hover {background:url('../images/companyHistory/about_06_on.gif') 0 8px no-repeat;}
+	#aside ul li ul {margin:0;padding: 23px 0;}
+	#aside ul li.customer_06 ul {display:block;}
+	#aside ul li ul li {border:none;margin-left:16px;}
+	#aside ul li ul.lnb_depth02 li a{height:10px;background-image:none;text-indent:0;padding:4px 0;}
+	#aside ul li ul.lnb_depth02 li a:hover {background-image:none;color:#76b729;font-weight:bold;letter-spacing:-0.1em;text-decoration:none;}
+	#aside ul li ul.lnb_depth02 li a.on {background-image:none;color:#76b729;font-weight:bold;letter-spacing:-0.1em;text-decoration:none;}

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>MetLife Admin</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	<link href="css/style.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="js/plugins.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="gnb">
+				<h1 class="logo">
+					<a href="#">
+						<img src="images/logo.png" alt="MetLife" />
+					</a>
+				</h1>
+				<a href="#" class="btn btn-home"><span>메트라이프 홈</span></a>
+				<div class="btn-group">
+					<a href="#" class="btn btn-logout">로그아웃</a>
+					<a href="#" class="btn">정보수정</a>
+				</div>
+			</div>
+			<nav class="gnb-menu">
+				<ul>
+					<li>
+						<a href="#" class="on">기본관리</a>
+					</li>
+					<li>
+						<a href="#" class="">홈페이지</a>
+					</li>
+					<li>
+						<a href="#" class="">온라인 고객센터</a>
+					</li>
+					<li>
+						<a href="#" class="">Digital Campaign</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<div class="container">
+			<nav class="lnb">
+				<ul>
+					<li class="on"><a href="#" class="on">관리자 관리</a></li>
+					<li><a href="#">관리자 메뉴 관리</a></li>
+					<li><a href="#">사업단 정보 관리</a></li>
+					<li><a href="#">지점 정보 관리</a></li>
+					<li><a href="#">코드 관리</a></li>
+					<li><a href="#">웹마스터 자료실 관리</a></li>
+				</ul>
+			</nav>
+			<section id="contents" class="contents">
+				<nav class="location">
+					<a href="#" class="on">기본관리</a>
+					<a href="#">관리자 관리 : 관리자 보기</a>
+				</nav>
+				<h1 class="section-title">관리자 관리 : 관리자 보기</h1>
+				<table class="bbs-comm bbs-inp">
+					<colgroup>
+						<col style="width:12%" />
+						<col />
+					</colgroup>
+					<tbody>
+						<tr>
+							<th>ID</th>
+							<td>
+								metkim123
+							</td>
+						</tr>
+						<tr>
+							<th>비밀번호</th>
+							<td>
+								<input type="password" name="" class="inp-comm" readonly />
+							</td>
+						</tr>
+						<tr>
+							<th>비밀번호 확인</th>
+							<td>
+								<input type="password" name="" class="inp-comm" readonly />
+							</td>
+						</tr>
+						<tr>
+							<th>이름</th>
+							<td>
+								<input type="text" name="" class="inp-comm" readonly />
+							</td>
+						</tr>
+						<tr>
+							<th>사번</th>
+							<td>
+								<input type="text" name="" class="inp-comm" readonly />
+							</td>
+						</tr>
+						<tr>
+							<th>부서</th>
+							<td>
+								<select class="selectbox-comm" name="">
+									<option value="" selected="selected">CVM팀</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>직위</th>
+							<td>
+								<select class="selectbox-comm" name="">
+									<option value="" selected="selected">사원</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>E-Mali</th>
+							<td>
+								<div class="colset-comm colset-half">
+									<div class="colset-comm colset-side-sg">
+										<input type="email" name="" class="inp-comm" readonly />
+										<div class="col-after">
+											@
+										</div>
+									</div>
+									<div class="col-after">
+										<select class="selectbox-comm" name="" disabled>
+											<option value="" selected="selected">직접입력</option>
+										</select>
+									</div>
+								</div>
+							</td> 
+						</tr>
+						<tr>
+							<th>상태</th>
+							<td>
+								<select class="selectbox-comm" name="" disabled>
+									<option value="" selected="selected">사용</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>등록일</th>
+							<td>
+								20161005
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="btn-wrap btn-wrap-v2">
+					<div class="btn-group2">
+						<a href="#" class="btn-comm btn-comm-v2">관리자메뉴권한보기</a>
+					</div>
+					<div class="btn-group3">
+						<a href="#" class="btn-comm btn-comm-v2">비밀번호초기화</a>
+						<a href="#" class="btn-comm btn-comm-v2">수정</a>
+						<a href="#" class="btn-comm btn-comm-v2">삭제</a>
+						<a href="#" class="btn-comm btn-comm-v2">리스트이동</a>
+					</div>
+				</div>
+				<table class="bbs-comm bbs-list">
+					<thead>
+						<tr>
+							<th scope="col">번호</th>
+							<th scope="col">부모메뉴코드</th>
+							<th scope="col">부모메뉴이름</th>
+							<th scope="col">메뉴코드</th>
+							<th scope="col">메뉴이름</th>
+							<th scope="col">직위</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>A001</td>
+							<td>관리자/메뉴</td>
+							<td>A010</td>
+							<td>관리자 관리</td>
+							<td>Y</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>A001</td>
+							<td>관리자/메뉴</td>
+							<td>A010</td>
+							<td>관리자 관리</td>
+							<td>Y</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>A001</td>
+							<td>관리자/메뉴</td>
+							<td>A010</td>
+							<td>관리자 관리</td>
+							<td>Y</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>A001</td>
+							<td>관리자/메뉴</td>
+							<td>A010</td>
+							<td>관리자 관리</td>
+							<td>Y</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>A001</td>
+							<td>관리자/메뉴</td>
+							<td>A010</td>
+							<td>관리자 관리</td>
+							<td>Y</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>A001</td>
+							<td>관리자/메뉴</td>
+							<td>A010</td>
+							<td>관리자 관리</td>
+							<td>Y</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>A001</td>
+							<td>관리자/메뉴</td>
+							<td>A010</td>
+							<td>관리자 관리</td>
+							<td>Y</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>A001</td>
+							<td>관리자/메뉴</td>
+							<td>A010</td>
+							<td>관리자 관리</td>
+							<td>Y</td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td>A001</td>
+							<td>관리자/메뉴</td>
+							<td>A010</td>
+							<td>관리자 관리</td>
+							<td>N</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+		</div>
+		<footer class="footer">
+			<p class="logo">
+				<img src="images/logo2.png" alt="MetLife"/>
+			</p>
+			<div class="info">
+				<p class="txt-notice">관리자 비밀번호에 대한 보안에 유의해 주시기 바랍니다.</p>
+				<address class="txt-addr">서울시 강남구 테헤란로 316(역삼2동, 메트라이프타워) <span class="txt-highlight">콜센터 : 국내 1588-9600  해외 : +82-2-2017-6700</span></address>
+				<p class="txt-copy"><span class="txt-highlight">ⓒ 메트라이프생명보험(주).</span> All Rights Reserved.</p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
